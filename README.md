@@ -1,71 +1,43 @@
-Personal Finance Tracker 💰
-Overview
+# Personal Finance Tracker 💰
 
-A simple web-based application to track personal income and expenses
+## Overview
+- A simple and user-friendly web application for tracking personal income and expenses
+- Helps users manage their budget and understand spending patterns
+- Built using HTML, CSS, and Vanilla JavaScript with no external libraries
 
-Helps users manage budgets and understand spending habits
+## Features
+- Add income and expense transactions
+- Dynamic category selection based on transaction type
+- Automatic calculation of total income, total expenses, and balance
+- Filter transactions by All, Income, or Expense
+- Visual spending analysis by category
+- Delete individual transactions
+- Persistent data storage using browser LocalStorage
 
-Built using only HTML, CSS, and Vanilla JavaScript
+## Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla)
+- LocalStorage API
 
-Features
+## How to Use
+- Open `index.html` in any modern web browser
+- Enter transaction details (description, amount, type, category)
+- Click **Add** to save the transaction
+- View updated balance and transaction history instantly
+- Use filter buttons to manage displayed transactions
+- Delete transactions as needed
 
-Add income and expense transactions
+## Data Storage
+- All transaction data is stored locally in the browser
+- Data persists even after refreshing or reopening the page
+- No backend or database is required
 
-Dynamic categories based on transaction type
 
-Automatic calculation of total income, expenses, and balance
+## Learning Outcomes
+- DOM manipulation
+- Event handling
+- State management using JavaScript
+- Client-side data persistence
+- Basic data visualization
 
-Filter transactions by All, Income, or Expense
-
-Visual spending breakdown by category
-
-Delete individual transactions
-
-Data persistence using browser LocalStorage
-
-Technologies Used
-
-HTML
-
-CSS
-
-JavaScript (Vanilla)
-
-LocalStorage API
-
-How to Use
-
-Open index.html in a browser
-
-Enter transaction details and click Add
-
-View updated balance and transaction list
-
-Use filters to manage displayed data
-
-Delete transactions when needed
-
-Data Storage
-
-Uses LocalStorage to save transactions
-
-Data remains after page refresh
-
-No backend or database required
-
-Project Structure
-Personal-Finance-Tracker/
-├── index.html
-├── README.md
-
-Learning Outcomes
-
-DOM manipulation
-
-Event handling
-
-State management
-
-Client-side data persistence
-
-Basic data visualization
