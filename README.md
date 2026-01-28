@@ -1,1 +1,11 @@
-# END-TERM-WEB-DEV-PROJECT---Budget-Tracker
+Budget Tracker
+
+Personal Finance Tracker is a front-end web application created to help users manage their personal finances in a clear, simple, and stress-free way. The main goal of this project is to make it easy to record income and expenses, understand spending habits, and keep track of overall financial balance without the need for complex tools or external services. The application is built completely using HTML, CSS, and Vanilla JavaScript, focusing on clean design, smooth user experience, and strong core logic rather than frameworks.
+
+The app allows users to add financial transactions by entering a description, amount, transaction type (income or expense), and a relevant category. Based on the selected transaction type, the category options dynamically update to ensure accurate classification. As soon as a transaction is added, the dashboard updates automatically to show total income, total expenses, and the remaining balance, giving users instant feedback on their financial status. This real-time calculation helps users stay aware of their money flow at all times.
+
+To improve usability, the application includes a transaction history section where all records are displayed in a clean and readable format. Users can filter transactions to view only income entries, only expenses, or all transactions together. Each transaction also includes a delete option, allowing users to remove incorrect or unwanted entries easily. This makes the tracker flexible and forgiving, especially for daily use.
+
+In addition to basic tracking, the app provides a visual summary of spending through a category-based expense chart. Expenses are grouped by category and displayed as progress bars, making it easy to see which areas consume the most money. This visual representation helps users better understand their spending patterns and make more informed financial decisions.
+
+All transaction data is stored locally in the browser using the LocalStorage API, meaning the data remains available even after refreshing or closing the browser. No backend, database, or user authentication is required, making the app lightweight, fast, and easy to run on any modern browser. Overall, this project demonstrates practical front-end development skills such as DOM manipulation, event handling, data persistence, conditional rendering, and basic data visualization, while also serving as a genuinely useful personal budgeting tool.
