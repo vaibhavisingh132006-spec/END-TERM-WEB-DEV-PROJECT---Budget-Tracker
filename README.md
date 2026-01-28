@@ -1,5 +1,5 @@
 Budget Tracker
-
+ 
 Personal Finance Tracker is a front-end web application created to help users manage their personal finances in a clear, simple, and stress-free way. The main goal of this project is to make it easy to record income and expenses, understand spending habits, and keep track of overall financial balance without the need for complex tools or external services. The application is built completely using HTML, CSS, and Vanilla JavaScript, focusing on clean design, smooth user experience, and strong core logic rather than frameworks.
 
 The app allows users to add financial transactions by entering a description, amount, transaction type (income or expense), and a relevant category. Based on the selected transaction type, the category options dynamically update to ensure accurate classification. As soon as a transaction is added, the dashboard updates automatically to show total income, total expenses, and the remaining balance, giving users instant feedback on their financial status. This real-time calculation helps users stay aware of their money flow at all times.
